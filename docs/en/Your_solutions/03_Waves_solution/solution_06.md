@@ -1,174 +1,122 @@
-# Task 06 – Wave Equation Parameters
+## 🌊 Wave Equation Parameters
 
-## Problem Statement
+## 📌 Problem
 
 Given the wave:
 
-$$
+[
 y(x,t) = 0.05 \sin(2\pi x - 50\pi t)
-$$
+]
 
 Determine:
 
-- Amplitude $A$
-- Wavelength $\lambda$
-- Frequency $f$
-- Wave speed $v$
+* Amplitude (A)
+* Wavelength (\lambda)
+* Frequency (f)
+* Wave speed (v)
 
 ---
 
-## Theory
+## 📘 Theory
 
-### 1. General Form of a Traveling Wave
+A sinusoidal traveling wave has the form:
 
-A sinusoidal wave is written as:
-
-$$
+[
 y(x,t) = A \sin(kx - \omega t)
-$$
+]
 
-where:
+Where:
 
-- $A$ → amplitude  
-- $k$ → wave number  
-- $\omega$ → angular frequency  
+* (A) → amplitude
+* (k) → wave number
+* (\omega) → angular frequency
 
 ---
 
-### 2. Key Relations
+## 🔑 Key Relations
 
-Wave number:
-
-$$
+[
 k = \frac{2\pi}{\lambda}
-$$
+]
 
-Angular frequency:
-
-$$
+[
 \omega = 2\pi f
-$$
+]
 
-Wave speed:
-
-$$
+[
 v = \frac{\omega}{k}
-$$
+]
 
 ---
 
-## Step-by-Step Solution
+## 🧮 Solution
 
-### Step 1: Identify parameters from the equation
+### Step 1: Identify parameters
 
 Compare:
 
-$$
+[
 y(x,t) = 0.05 \sin(2\pi x - 50\pi t)
-$$
+]
 
 with:
 
-$$
+[
 y(x,t) = A \sin(kx - \omega t)
-$$
+]
 
 Thus:
 
-$$
+[
 A = 0.05, \quad k = 2\pi, \quad \omega = 50\pi
-$$
+]
 
 ---
 
-### Step 2: Determine wavelength
+### Step 2: Wavelength
 
-Using:
-
-$$
-k = \frac{2\pi}{\lambda}
-$$
-
-Substitute:
-
-$$
-2\pi = \frac{2\pi}{\lambda}
-$$
-
-Thus:
-
-$$
-\lambda = 1 \ \text{m}
-$$
+[
+\lambda = \frac{2\pi}{k} = \frac{2\pi}{2\pi} = 1 , \text{m}
+]
 
 ---
 
-### Step 3: Determine frequency
+### Step 3: Frequency
 
-Using:
-
-$$
-\omega = 2\pi f
-$$
-
-$$
-50\pi = 2\pi f
-$$
-
-Solve:
-
-$$
-f = 25 \ \text{Hz}
-$$
+[
+f = \frac{\omega}{2\pi} = \frac{50\pi}{2\pi} = 25 , \text{Hz}
+]
 
 ---
 
-### Step 4: Determine wave speed
+### Step 4: Wave Speed
 
-Using:
-
-$$
-v = \frac{\omega}{k}
-$$
-
-$$
-v = \frac{50\pi}{2\pi}
-$$
-
-$$
-v = 25 \ \text{m/s}
-$$
+[
+v = \frac{\omega}{k} = \frac{50\pi}{2\pi} = 25 , \text{m/s}
+]
 
 ---
 
-## Final Result
+## ✅ Final Results
 
-$$
-A = 0.05
-$$
-
-$$
-\lambda = 1 \ \text{m}
-$$
-
-$$
-f = 25 \ \text{Hz}
-$$
-
-$$
-v = 25 \ \text{m/s}
-$$
+* **Amplitude:** (A = 0.05)
+* **Wavelength:** (\lambda = 1 , \text{m})
+* **Frequency:** (f = 25 , \text{Hz})
+* **Wave Speed:** (v = 25 , \text{m/s})
 
 ---
 
-## Interpretation
+## ✔️ Verification
 
-All wave properties can be extracted directly from the functional form.
+[
+v = f \lambda = 25 \times 1 = 25 , \text{m/s}
+]
 
-Important consistency check:
+✔ Results are consistent.
 
-$$
-v = f \lambda = 25 \cdot 1 = 25
-$$
+---
 
-This confirms internal consistency of the solution.
+## 💡 Notes
+
+* Parameters are directly extracted from the wave equation.
+* Always match the equation to the standard form before solving.
