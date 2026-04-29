@@ -1,4 +1,4 @@
-# # 🌊 Standing Wave Modes
+# #Task 07 🌊 Standing Wave Modes
 
 ## 📌 Problem
 
