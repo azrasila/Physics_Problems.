@@ -1,17 +1,17 @@
-# 🌊 Task 07 – Standing Wave Modes
+# # 🌊 Standing Wave Modes
 
-## 📌 Problem Statement
+## 📌 Problem
 
 A standing wave with four antinodes is formed on a string of length
 ( L = 80 , \text{cm} ).
 
-Determine the wavelength of the wave.
+Find the wavelength.
 
 ---
 
 ## 📘 Theory
 
-For a string fixed at both ends, the length of the string is related to the wavelength by:
+For a string fixed at both ends:
 
 [
 L = n \frac{\lambda}{2}
@@ -21,41 +21,37 @@ where ( n ) is the number of antinodes.
 
 ---
 
-## 🧮 Step-by-Step Solution
-
-### 1. Identify Given Values
+## 🔑 Key Relation
 
 [
-L = 80 , \text{cm} = 0.8 , \text{m}
-]
-
-[
-n = 4
+\lambda = \frac{2L}{n}
 ]
 
 ---
 
-### 2. Substitute into the Formula
+## 🧮 Solution
+
+### Step 1: Identify values
 
 [
-L = n \frac{\lambda}{2}
-]
-
-[
-0.8 = 4 \cdot \frac{\lambda}{2}
+L = 0.8 , \text{m}, \quad n = 4
 ]
 
 ---
 
-### 3. Solve for ( \lambda )
+### Step 2: Apply formula
 
 [
-0.8 = 2\lambda
+\lambda = \frac{2L}{n}
 ]
 
 [
-\lambda = \frac{0.8}{2}
+\lambda = \frac{2 \cdot 0.8}{4}
 ]
+
+---
+
+### Step 3: Calculate
 
 [
 \lambda = 0.4 , \text{m}
@@ -71,6 +67,10 @@ L = n \frac{\lambda}{2}
 
 ---
 
-## ✔️ Interpretation
+## ✔️ Verification
 
-In this mode, the string is divided into four equal sections, each representing half a wavelength. This corresponds to the 4th harmonic.
+[
+L = n \frac{\lambda}{2} = 4 \cdot \frac{0.4}{2} = 0.8 , \text{m}
+]
+
+✔ Result is consistent.
