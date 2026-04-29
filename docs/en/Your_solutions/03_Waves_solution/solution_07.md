@@ -1,79 +1,76 @@
-# Task 07 – Standing Wave Modes
+# 🌊 Task 07 – Standing Wave Modes
 
-## Problem Statement
+## 📌 Problem Statement
 
-A string of length $L = 0.8 \ \text{m}$ supports a standing wave with four antinodes.
+A standing wave with four antinodes is formed on a string of length
+( L = 80 , \text{cm} ).
 
-Determine the wavelength.
-
----
-
-## Theory
-
-### 1. Standing Waves on a String
-
-Allowed wavelengths:
-
-$$
-\lambda_n = \frac{2L}{n}
-$$
-
-where $n$ is the number of half-wavelength segments.
+Determine the wavelength of the wave.
 
 ---
 
-### 2. Relation to Antinodes
+## 📘 Theory
 
-Each antinode corresponds to one half-wavelength:
+For a string fixed at both ends, the length of the string is related to the wavelength by:
 
-$$
-n = \text{number of antinodes}
-$$
+[
+L = n \frac{\lambda}{2}
+]
 
-Thus:
+where ( n ) is the number of antinodes.
 
-$$
+---
+
+## 🧮 Step-by-Step Solution
+
+### 1. Identify Given Values
+
+[
+L = 80 , \text{cm} = 0.8 , \text{m}
+]
+
+[
 n = 4
-$$
+]
 
 ---
 
-## Step-by-Step Solution
+### 2. Substitute into the Formula
 
-### Step 1: Use wavelength formula
+[
+L = n \frac{\lambda}{2}
+]
 
-$$
-\lambda = \frac{2L}{n}
-$$
-
----
-
-### Step 2: Substitute values
-
-$$
-\lambda = \frac{2 \cdot 0.8}{4}
-$$
+[
+0.8 = 4 \cdot \frac{\lambda}{2}
+]
 
 ---
 
-### Step 3: Compute
+### 3. Solve for ( \lambda )
 
-$$
-\lambda = 0.4 \ \text{m}
-$$
+[
+0.8 = 2\lambda
+]
+
+[
+\lambda = \frac{0.8}{2}
+]
+
+[
+\lambda = 0.4 , \text{m}
+]
 
 ---
 
-## Final Result
+## ✅ Final Result
 
-$$
-\lambda = 0.4 \ \text{m}
-$$
+[
+\lambda = 0.4 , \text{m}
+]
 
 ---
 
-## Interpretation
+## ✔️ Interpretation
 
-Increasing the number of antinodes increases spatial frequency and reduces wavelength.
-
-This corresponds to higher harmonic modes.
+In this mode, the string is divided into four equal sections, each representing half a wavelength. This corresponds to the 4th harmonic.
