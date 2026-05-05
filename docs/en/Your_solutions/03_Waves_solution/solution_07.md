@@ -1,76 +1,90 @@
-# #Task 07 🌊 Standing Wave Modes
+# #Task 07 # ---
+
+layout: default
+title: Wave Equation
+--------------------
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+# 🌊 Wave Equation Parameters
 
 ## 📌 Problem
 
-A standing wave with four antinodes is formed on a string of length
-( L = 80 , \text{cm} ).
+![Wave](images/wave.png)
 
-Find the wavelength.
+Given:
+
+$$
+y(x,t) = 0.05 \sin(2\pi x - 50\pi t)
+$$
 
 ---
 
 ## 📘 Theory
 
-For a string fixed at both ends:
+$$
+y(x,t) = A \sin(kx - \omega t)
+$$
 
-[
-L = n \frac{\lambda}{2}
-]
-
-where ( n ) is the number of antinodes.
-
----
-
-## 🔑 Key Relation
-
-[
-\lambda = \frac{2L}{n}
-]
+* $A$ → amplitude
+* $k$ → wave number
+* $\omega$ → angular frequency
 
 ---
 
-## 🧮 Solution
+## 🔑 Key Relations
 
-### Step 1: Identify values
+$$
+k = \frac{2\pi}{\lambda}
+$$
 
-[
-L = 0.8 , \text{m}, \quad n = 4
-]
+$$
+\omega = 2\pi f
+$$
 
----
-
-### Step 2: Apply formula
-
-[
-\lambda = \frac{2L}{n}
-]
-
-[
-\lambda = \frac{2 \cdot 0.8}{4}
-]
+$$
+v = \frac{\omega}{k}
+$$
 
 ---
 
-### Step 3: Calculate
+## 🧩 Solution
 
-[
-\lambda = 0.4 , \text{m}
-]
+### Step 1
 
----
-
-## ✅ Final Result
-
-[
-\lambda = 0.4 , \text{m}
-]
+* $A = 0.05$
+* $k = 2\pi$
+* $\omega = 50\pi$
 
 ---
 
-## ✔️ Verification
+### Step 2
 
-[
-L = n \frac{\lambda}{2} = 4 \cdot \frac{0.4}{2} = 0.8 , \text{m}
-]
+$$
+\lambda = 1 \ \text{m}
+$$
 
-✔ Result is consistent.
+---
+
+### Step 3
+
+$$
+f = 25 \ \text{Hz}
+$$
+
+---
+
+### Step 4
+
+$$
+v = 25 \ \text{m/s}
+$$
+
+---
+
+## ✅ Final Results
+
+* Amplitude: $0.05$
+* Wavelength: $1 \text{ m}$
+* Frequency: $25 \text{ Hz}$
+* Wave Speed: $25 \text{ m/s}$
